@@ -164,7 +164,12 @@ pd.set_option('display.float_format', lambda x: '%.3f' % x)
 # 2. LOAD DATASET
 ###############################################################
 
-df = pd.read_csv(r"C:\Users\HP\PycharmProjects\PythonProject\B2B_project\dataset.csv")
+
+from pathlib import Path
+
+DATA_PATH = Path(__file__).resolve().parent / "dataset.csv"
+df = pd.read_csv(DATA_PATH)
+
 
 ###############################################################
 # 3. INITIAL DATA CHECK
