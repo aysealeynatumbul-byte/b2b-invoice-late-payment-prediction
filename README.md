@@ -6,6 +6,18 @@ Late invoice payments can negatively affect a company's cash flow and financial 
 
 In addition to predicting late payments, the project provides a collection prioritization approach to help businesses identify high-risk invoices and improve their collection processes.
 
+## Dataset
+
+This project uses the **Customer Invoices Dataset** available on Kaggle.
+
+**Dataset Source:** [Kaggle – Customer Invoices Dataset](https://www.kaggle.com/datasets/pradumn203/payment-date-prediction-for-invoices-dataset)
+
+**License:** [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+
+The dataset contains historical invoice records, including invoice amounts, payment dates, due dates, and customer information.
+
+The dataset is not included in this repository. It can be downloaded from the original Kaggle source.
+
 ## Business Problem
 
 Companies often manage large numbers of invoices with different payment dates, amounts, and customer characteristics.
