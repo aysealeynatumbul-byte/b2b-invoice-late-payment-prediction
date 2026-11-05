@@ -1,1 +1,23 @@
+# Dataset
+dataset.csv
+dataset*.csv
 
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+.venv/
+venv/
+
+# PyCharm
+.idea/
+
+# Model Files
+*.pkl
+*.joblib
+
+# Secrets
+.env
+.env.*
+!.env.example
